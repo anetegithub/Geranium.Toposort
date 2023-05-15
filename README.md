@@ -4,7 +4,7 @@
 Interface and class, base alghoritm-implementations, for `Types` sorted according to dependencies from each other.
 
 ## Example
-Define `BaseModule` class extended from `Toposort`, create 3 inheritors, and set dependencies of types:
+Define `BaseModule` class extended from `ToposortType`, create 3 inheritors, and set dependencies of types:
 ```C#
 class BaseModule : ToposortType { }
 class Module1 : BaseModule { }
