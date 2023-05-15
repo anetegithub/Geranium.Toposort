@@ -1,4 +1,8 @@
-﻿namespace Geranium
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Geranium
 {
     public delegate TToposort[] Toposorting<TToposort>(IEnumerable<TToposort> @enum)
         where TToposort : IToposort;

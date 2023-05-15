@@ -1,4 +1,7 @@
-﻿namespace Geranium
+﻿using System;
+using System.Collections.Generic;
+
+namespace Geranium
 {
     /// <summary>
     /// Base class for topologically sortable objects

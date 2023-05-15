@@ -1,4 +1,6 @@
-﻿namespace Geranium
+﻿using System.Collections.Generic;
+
+namespace Geranium
 {
     /// <summary>
     /// Interface for objects sorted according to dependencies from each other

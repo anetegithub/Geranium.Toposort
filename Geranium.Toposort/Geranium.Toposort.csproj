@@ -1,9 +1,30 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;netstandard2.1;netcoreapp3.1;net46;</TargetFrameworks>
+		<Nullable>disable</Nullable>
+		<Title>Geranium.Toposort</Title>
+		<Description>Interface and base implementations, for Types sorted according to dependencies from each other.</Description>
+		<PackageProjectUrl>https://github.com/anetegithub/Geranium.Toposort</PackageProjectUrl>
+		<Copyright>anete.anetes</Copyright>
+		<RepositoryUrl>https://github.com/anetegithub/Geranium.Toposort</RepositoryUrl>
+		<PackageTags>Toposort;</PackageTags>
+		<AssemblyVersion></AssemblyVersion>
+		<FileVersion></FileVersion>
+		<IncludeSymbols>True</IncludeSymbols>
+		<Product />
+		<Authors>anete.anetes</Authors>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Version>1.0.2</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
 
 </Project>
