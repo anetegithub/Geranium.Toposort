@@ -35,7 +35,7 @@ public void DependenciesByTypesTest()
 
 ## Components
 There is base interfacem but better use implementations, and extension methods with generic type checks:
-* `Itoposort` - base interface, use it when u can't use base class
+* `IToposort` - base interface, use it when u can't use base class
 * `ToposortType` - base class implemented all logic
 * `ToposortExtensions.Sort` - implicit extension method for topo sorting
 * `ToposortExtensions.TopoSort` - explicit extension method for topo sorting
@@ -43,6 +43,6 @@ There is base interfacem but better use implementations, and extension methods w
 
 ## Extensions
 #### Interface
-You can implement your custom `IToposort` class, for example: set dependencies not by type and on runtime.
+You can implement your custom `IToposort` class, for example: set dependencies not by type and in runtime.
 #### Sorting
 Additionaly, you can pass your own ` delegate Toposorting<TToposort>` in `Sort` and `TopoSort` methods.
